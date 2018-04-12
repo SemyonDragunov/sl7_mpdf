@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * SL7 MPDF module.
+ * 
+ * @author Semyon Dragunov <sam.dragunov@gmail.com>
+ * https://github.com/SemyonDragunov
+ */
+
+/**
+ * Подключение модуля mpdf.
+ */
+function sl7_mpdf_include() {
+  module_load_include('php', 'sl7_mpdf', 'vendors/mpdf/mpdf');
+}
